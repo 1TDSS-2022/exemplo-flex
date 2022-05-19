@@ -12,7 +12,7 @@ body{
   font-size: 16px;
 }
 
-h1,h2,h3{
+h1, h2, h3{
   margin: 20px 10px;
 }
 
@@ -29,4 +29,8 @@ h1,h2,h3{
     text-decoration: none;
     background-color: #0000ff;
     color: #ffffff;
+}
+
+nav a{
+  text-decoration: none;
 }
