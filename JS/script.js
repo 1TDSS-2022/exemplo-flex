@@ -43,7 +43,7 @@ function trocaCores(){
     
         //elemento.style.backgroundColor = "rgb( "+ red + "," + green + "," + blue +")"
         //Interpolação
-        elemento.style.backgroundColor = 'rgb(${red} ,${green}, ${blue})'
+        elemento.style.backgroundColor = "rgb(${red} ,${green}, ${blue})"
     }   
 
 }
