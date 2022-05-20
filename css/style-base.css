@@ -41,6 +41,11 @@ h1,h2,h3{
   background-color: #1d1120;
   color: #fff;
 }
+.cabecalho img{
+  display: block;
+  min-width: 1%;
+  flex-basis: 150px;
+}
 
 .menu{
   display: flex;

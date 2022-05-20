@@ -48,3 +48,22 @@ function trocaCores(){
     }
 
 }
+
+function trocaImagemDoLobo1(){
+    const imgLoboCabecalho = document.querySelector(".cabecalho img")
+    imgLoboCabecalho.src = "./img/lobo2.jpg"
+    setTimeout(trocaImagemDoLobo2, 500)
+}
+
+function trocaImagemDoLobo2(){
+    const imgLoboCabecalho = document.querySelector(".cabecalho img")
+    imgLoboCabecalho.src = "./img/lobo3.jpg"
+    setTimeout(trocaImagemDoLobo3, 500)
+    
+}
+
+function trocaImagemDoLobo3(){
+    const imgLoboCabecalho = document.querySelector(".cabecalho img")
+    imgLoboCabecalho.src = "./img/lobo1.jpg"
+    setTimeout(trocaImagemDoLobo1, 500)
+}
