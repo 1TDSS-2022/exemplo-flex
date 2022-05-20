@@ -30,3 +30,60 @@ h1,h2,h3{
     background-color: #0000ff;
     color: #ffffff;
 }
+ 
+/* CRIANDO MENU COM FLEX */
+
+  .cabecalho{
+    display: 	flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d1120;
+    color: #fff;
+    
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.menu a{
+  padding: 2rem 2rem;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.menu a:hover{
+  background-color: brown;
+}
+
+
+
+/* CRIANDO MENU COM FLEX */
+
+
+/* CRIANDO SEÇÃO DE IMAGENS COM FLEX */
+
+.img-sect{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.img-sect > div{
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 150px;
+  margin: 0.8rem;
+}
+
+.img-sect div img{
+  max-width: 100%;
+  display: block;
+}
+
+/* CRIANDO SEÇÃO DE IMAGENS COM FLEX */
+
