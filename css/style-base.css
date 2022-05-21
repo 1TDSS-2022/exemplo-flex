@@ -93,3 +93,9 @@ h1,h2,h3{
 
 /* CRIANDO SEÇÃO DE IMAGENS COM FLEX */
 
+.cabecalho img{
+  min-width: 1%;
+  display: block;
+  flex-basis: 150px;
+}
+
